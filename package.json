@@ -1,0 +1,25 @@
+{
+  "name": "animation-gnome-extension",
+  "version": "0.0.0",
+  "description": "just an exprement by ashish",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashudevcodes/animation-gnome-extension.git"
+  },
+  "author": "Álan Crístoffer e Sousa <acristoffers@startmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ashudevcodes/animation-gnome-extension/issues"
+  },
+  "homepage": "https://github.com/ashudevcodes/animation-gnome-extension#readme",
+  "sideEffects": false,
+  "devDependencies": {
+    "@girs/gjs": "^4.0.0-beta.21",
+    "@girs/gnome-shell": "^47.0.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-jsdoc": "^50.6.8",
+    "typescript": "^5.8.2"
+  }
+}
