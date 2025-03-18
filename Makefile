@@ -28,3 +28,4 @@ install: $(NAME).zip
 
 clean:
 	@rm -rf dist node_modules $(NAME).zip
+	@rm -rf ~/.local/share/gnome-shell/extensions/$(NAME)@$(DOMAIN)
