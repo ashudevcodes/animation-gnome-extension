@@ -1,0 +1,11 @@
+{
+    "name": "animation-gnome-extension",
+    "description": "Gnome Extension who mange animation",
+    "uuid": "animation-gnome-extension@ashudevcodes.com",
+    "url": "https://github.com/ashudevcodes/animation-gnome-extension",
+    "settings-schema": "org.gnome.shell.extensions.animation-gnome-extension",
+    "shell-version": [
+        "45",
+        "47"
+    ]
+}
