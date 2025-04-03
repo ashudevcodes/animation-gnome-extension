@@ -12,6 +12,10 @@ export default class MyExtension extends Extension {
     enable() {
         this.gsettings = this.getSettings();
         this.animationsEnabled = this.gsettings!.get_value('padding-inner').deepUnpack() ?? 8
+        console.trace("[Ashish This come from getSettings]", this.gsettings)
+
+        console.trace("[Ashish This come from animationsEnabled]", this.animationsEnabled)
+
     }
 
     disable() {
